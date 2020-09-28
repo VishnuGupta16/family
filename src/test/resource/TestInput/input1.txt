@@ -1,0 +1,18 @@
+GET_RELATIONSHIP Vasa Paternal-Uncle
+GET_RELATIONSHIP Vasa Maternal-Uncle
+GET_RELATIONSHIP Yodhan Maternal-Uncle
+GET_RELATIONSHIP Kriya Paternal-Aunt
+GET_RELATIONSHIP Yodhan Maternal-Aunt
+GET_RELATIONSHIP Asva Sister-In-Law
+GET_RELATIONSHIP Jaya Sister-In-Law
+GET_RELATIONSHIP Krpi Sister-In-Law
+GET_RELATIONSHIP Asva Brother-In-Law
+GET_RELATIONSHIP Jaya Brother-In-Law
+GET_RELATIONSHIP Krpi Brother-In-Law
+GET_RELATIONSHIP Tritha Brother-In-Law
+ADD_CHILD Satya Ketu Male
+GET_RELATIONSHIP Kriya Paternal-Uncle
+GET_RELATIONSHIP Satvy Brother-In-Law
+ADD_CHILD Ginerva John Male
+GET_RELATIONSHIP Satvy Sister-In-Law
+GET_RELATIONSHIP Ish Son
