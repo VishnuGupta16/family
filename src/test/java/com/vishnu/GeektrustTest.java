@@ -15,7 +15,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class GeektrustTest {
-	
+
 	private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 	private final ByteArrayOutputStream errContent = new ByteArrayOutputStream();
 	private final PrintStream originalOut = System.out;
@@ -38,8 +38,8 @@ public class GeektrustTest {
 		//Given
 		final String inputPath = "./src/test/resource/TestInput/input1.txt";
 		final String outputPath = "./src/test/resource/TestInput/output1.txt";
-		final String expectedOutput = Files.lines(Paths.get(outputPath)).collect(Collectors.joining("\n"));
-		
+		final String expectedOutput = new String(Files.readAllBytes(Paths.get(outputPath)));
+
 		//Expected
 		Geektrust.main(new String[] {inputPath});
 		assertEquals(expectedOutput.trim(), outContent.toString().trim());
